@@ -1,0 +1,13 @@
+{
+    "name": "sanmark/eupheme-laravel-sdk",
+    "description": "laravel SDK for eupheme",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sachintha Rathgama Guruge",
+            "email": "sachintha@thesanmark.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
