@@ -9,6 +9,7 @@ class Comment
     public $parentID;
     public $extRef;
     public $userID;
+    public $status;
     public $createdAt;
     public $updatedAt;
     public $children;

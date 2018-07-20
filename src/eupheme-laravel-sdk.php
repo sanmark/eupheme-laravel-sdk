@@ -26,5 +26,9 @@ return [
             'app_key' => '',
             'app_hash' => ''
         ]
-    ]
+    ],
+
+    'user_helper' => \Sanmark\EuphemeLaravelSdk\UserHelper::class,
+
+    'auto_approve' => 0
 ];
