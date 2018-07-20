@@ -39,3 +39,8 @@ configurations located in `config/eupheme-laravel-sdk.php`
  implement both `getAuthUserID` and `getUserNameFromID` and add class name to configuration file under `user_helper` 
  
  
+ #### Usage
+ 
+ include view anywhere you want to include eupheme comments section 
+ `@include('eupheme-laravel-sdk::comments', ['eupheme_ext_ref' => {reference_number_for_comments}, 'eupheme_instance' => '{name_o_the_instance}'])`
+ 
