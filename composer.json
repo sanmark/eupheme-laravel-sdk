@@ -1,20 +1,21 @@
 {
-    "name": "sanmark/eupheme-laravel-sdk",
-    "description": "laravel SDK for eupheme",
-    "type": "library",
-    "authors": [
-        {
-            "name": "Sachintha Rathgama Guruge",
-            "email": "sachintha@thesanmark.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-            "Sanmark\\EuphemeLaravelSdk\\": "src/"
-        }
-    },
-    "require" : {
-        "guzzlehttp/guzzle" : "^6.3"
+  "name": "sanmark/eupheme-laravel-sdk",
+  "description": "laravel SDK for eupheme",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sachintha Rathgama Guruge",
+      "email": "sachintha@thesanmark.com"
     }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Sanmark\\EuphemeLaravelSdk\\": "src/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  }
 }
